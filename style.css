@@ -121,7 +121,11 @@ body{
 	text-align: center;
 	line-height: 40px
 }
-
+.discord:hover{
+	border-color: #192ff7;
+	color: #192ff7;
+	box-shadow: 0px 0px 25px #192ff7;
+}
 .vk:hover{
 	border-color: #192ff7;
 	color: #192ff7;
