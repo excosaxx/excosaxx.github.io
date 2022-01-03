@@ -167,8 +167,8 @@ body{
 	}
 	.fontawesome .steam{
 		border-color: #1b2838;
-		color: #b2b8ed;
-		box-shadow: 0px 0px 25px #b2b8ed;
+		color: #1b2838;
+		box-shadow: 0px 0px 25px #1b2838;
 	}
 
 }
@@ -205,9 +205,9 @@ body{
 	}
 
 	.fontawesome .steam{
-		border-color: #b2b8ed;
-		color: #b2b8ed;
-		box-shadow: 0px 0px 25px #b2b8ed;
+		border-color: #1b2838;
+		color: #1b2838;
+		box-shadow: 0px 0px 25px #1b2838;
 	}
 }
 
@@ -241,7 +241,7 @@ body{
 	}
 
 	.fontawesome .steam{
-		border-color: #b2b8ed;
-		color: #b2b8ed;
+		border-color: #1b2838;
+		color: #1b2838;
 	}
 }
