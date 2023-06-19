@@ -287,14 +287,14 @@ body{
 }
 /* background */
 
-#canvas, #text {
+.canvas, .text {
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	z-index: -1;
   }
-  #text {
+  .text {
 	min-height: 100vh;
 	width: 100vw;
 	z-index: 1;
@@ -306,6 +306,6 @@ body{
 	justify-content: center;
 	text-align: center;
   }
-  #text h1 {
+  .text h1 {
 	opacity: 0.9
   }
