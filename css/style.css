@@ -12,9 +12,6 @@ body{
 	font-size: 60px;
 	font-family: Arial;
 	color: rgba(255,255,255,0.2);
-	background: url(text.jpg)
-	repeat-x;
-	-webkit-background-clip: text;
 	background-size: contain;
 	animation: animTitle 13s linear infinite;
 }
