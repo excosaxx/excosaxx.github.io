@@ -168,6 +168,11 @@ body{
 		color: #192ff7;
 		box-shadow: 0px 0px 25px #192ff7;
 	}
+	.fontawesome .vk2{
+		border-color: #192ff7;
+		color: #192ff7;
+		box-shadow: 0px 0px 25px #192ff7;
+	}
 	.fontawesome .insta{
 		border-color: #f538a9;
 		color: #f538a9;
@@ -183,7 +188,11 @@ body{
 		color: #1b2838;
 		box-shadow: 0px 0px 25px #1b2838;
 	}
-
+	.fontawesome .steam2{
+		border-color: #1b2838;
+		color: #1b2838;
+		box-shadow: 0px 0px 25px #1b2838;
+	}
 }
 
 @media screen and (max-width: 414px) {
@@ -206,6 +215,11 @@ body{
 		color: #192ff7;
 		box-shadow: 0px 0px 25px #192ff7;
 	}
+	.fontawesome .vk2{
+		border-color: #192ff7;
+		color: #192ff7;
+		box-shadow: 0px 0px 25px #192ff7;
+	}
 	.fontawesome .insta{
 		border-color: #f538a9;
 		color: #f538a9;
@@ -218,6 +232,11 @@ body{
 	}
 
 	.fontawesome .steam{
+		border-color: #1b2838;
+		color: #1b2838;
+		box-shadow: 0px 0px 25px #1b2838;
+	}
+	.fontawesome .steam2{
 		border-color: #1b2838;
 		color: #1b2838;
 		box-shadow: 0px 0px 25px #1b2838;
@@ -244,6 +263,11 @@ body{
 		color: #192ff7;
 
 	}
+	.fontawesome .vk2{
+		border-color: #192ff7;
+		color: #192ff7;
+
+	}
 	.fontawesome .insta{
 		border-color: #f538a9;
 		color: #f538a9;
@@ -254,6 +278,10 @@ body{
 	}
 
 	.fontawesome .steam{
+		border-color: #1b2838;
+		color: #1b2838;
+	}
+	.fontawesome .steam2{
 		border-color: #1b2838;
 		color: #1b2838;
 	}
