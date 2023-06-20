@@ -318,6 +318,14 @@ html, body{
 		height: 30px;
 		line-height: 30px
 	}
+	.inst a{
+		margin-left: 0.9em;
+		font-size: 17px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px
+	}
+
 
 	/* .fontawesome .discord{
 		border-color: #192ff7;
