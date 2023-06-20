@@ -121,7 +121,7 @@ html, body{
 .vks{
 	display: flex;
     position: absolute;
-    top: 90%;
+    top: 30%;
     left: 52%;
     transform: translate(-57%, -50%);
 }
@@ -142,7 +142,7 @@ html, body{
 .steams{
 	display: flex;
     position: absolute;
-    top: 90%;
+    top: 60%;
     left: 52%;
     transform: translate(-57%, -50%);
 }
