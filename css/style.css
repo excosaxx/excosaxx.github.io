@@ -29,7 +29,7 @@ html, body{
 	margin-top: 20px;
 	font-size: 60px;
 	font-family: Arial;
-	color: rgba(255,255,255,0.2);
+	color: rgb(138, 138, 138);
 	background-size: contain;
 	animation: animTitle 13s linear infinite;
 }
