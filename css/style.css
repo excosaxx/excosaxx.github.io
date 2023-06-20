@@ -229,32 +229,32 @@ html, body{
 @media screen and (max-width: 600px){
 
 	
-	.fontawesome .vk{
+	.vks .vk{
 		border-color: #192ff7;
 		color: #192ff7;
 		box-shadow: 0px 0px 25px #192ff7;
 	}
-	.fontawesome .vk2{
+	.vks .vk2{
 		border-color: #192ff7;
 		color: #192ff7;
 		box-shadow: 0px 0px 25px #192ff7;
 	}
-	.fontawesome .insta{
+	.inst .insta{
 		border-color: #f538a9;
 		color: #f538a9;
 		box-shadow: 0px 0px 25px #f538a9;
 	}
-	.fontawesome .telegram{
+	.inst .telegram{
 		border-color: #00a2ff;
 		color: #00a2ff;
 		box-shadow: 0px 0px 25px #00a2ff;
 	}
-	.fontawesome .steam{
+	.steams .steam{
 		border-color: #1b2838;
 		color: #1b2838;
 		box-shadow: 0px 0px 25px #1b2838;
 	}
-	.fontawesome .steam2{
+	.steams .steam2{
 		border-color: #1b2838;
 		color: #1b2838;
 		box-shadow: 0px 0px 25px #1b2838;
@@ -263,7 +263,7 @@ html, body{
 
 @media screen and (max-width: 414px) {
 
-	.fontawesome a{
+	.vks a{
 		margin-left: 1.1em;
 		font-size: 18px;
 		width: 35px;
@@ -271,38 +271,38 @@ html, body{
 		line-height: 35px
 	}
 
-	.fontawesome .discord{
+	/* .fontawesome .discord{
+		border-color: #192ff7;
+		color: #192ff7;
+		box-shadow: 0px 0px 25px #192ff7;
+	} */
+	.vks .vk{
 		border-color: #192ff7;
 		color: #192ff7;
 		box-shadow: 0px 0px 25px #192ff7;
 	}
-	.fontawesome .vk{
+	.vks .vk2{
 		border-color: #192ff7;
 		color: #192ff7;
 		box-shadow: 0px 0px 25px #192ff7;
 	}
-	.fontawesome .vk2{
-		border-color: #192ff7;
-		color: #192ff7;
-		box-shadow: 0px 0px 25px #192ff7;
-	}
-	.fontawesome .insta{
+	.inst .insta{
 		border-color: #f538a9;
 		color: #f538a9;
 		box-shadow: 0px 0px 25px #f538a9;
 	}
-	.fontawesome .telegram{
+	.inst .telegram{
 		border-color: #00a2ff;
 		color: #00a2ff;
 		box-shadow: 0px 0px 25px #00a2ff;
 	}
 
-	.fontawesome .steam{
+	.steams .steam{
 		border-color: #1b2838;
 		color: #1b2838;
 		box-shadow: 0px 0px 25px #1b2838;
 	}
-	.fontawesome .steam2{
+	.steams .steam2{
 		border-color: #1b2838;
 		color: #1b2838;
 		box-shadow: 0px 0px 25px #1b2838;
@@ -319,35 +319,35 @@ html, body{
 		line-height: 30px
 	}
 
-	.fontawesome .discord{
+	/* .fontawesome .discord{
+		border-color: #192ff7;
+		color: #192ff7;
+
+	} */
+	.vks .vk{
 		border-color: #192ff7;
 		color: #192ff7;
 
 	}
-	.fontawesome .vk{
+	.vks .vk2{
 		border-color: #192ff7;
 		color: #192ff7;
 
 	}
-	.fontawesome .vk2{
-		border-color: #192ff7;
-		color: #192ff7;
-
-	}
-	.fontawesome .insta{
+	.inst .insta{
 		border-color: #f538a9;
 		color: #f538a9;
 	}
-	.fontawesome .telegram{
+	.inst .telegram{
 		border-color: #00a2ff;
 		color: #00a2ff;
 	}
 
-	.fontawesome .steam{
+	.steams .steam{
 		border-color: #1b2838;
 		color: #1b2838;
 	}
-	.fontawesome .steam2{
+	.steams .steam2{
 		border-color: #1b2838;
 		color: #1b2838;
 	}
