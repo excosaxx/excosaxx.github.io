@@ -121,7 +121,7 @@ html, body{
 .vks{
 	display: flex;
     position: absolute;
-    top: 60%;
+    top: 90%;
     left: 52%;
     transform: translate(-57%, -50%);
 }
