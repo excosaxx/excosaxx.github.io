@@ -129,7 +129,6 @@ html, body{
 .vks a{
 	color: #c4c4c4;
 	padding: 0;
-	margin-left: 1.5em;
 	font-size: 20px;
 	width: 60px;
 	height: 60px;
@@ -151,7 +150,6 @@ html, body{
 .steams a{
 	color: #c4c4c4;
 	padding: 0;
-	margin-left: 1.5em;
 	font-size: 20px;
 	width: 60px;
 	height: 60px;
@@ -175,7 +173,7 @@ html, body{
 .inst a{
 	color: #c4c4c4;
 	padding: 0;
-	margin-left: 1.5em;
+
 	font-size: 20px;
 	width: 60px;
 	height: 60px;
