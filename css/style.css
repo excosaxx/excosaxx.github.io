@@ -311,7 +311,7 @@ html, body{
 
 @media screen and (max-width: 320px) {
 
-	.fontawesome a{
+	.vks a{
 		margin-left: 0.9em;
 		font-size: 17px;
 		width: 30px;
