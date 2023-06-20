@@ -215,7 +215,7 @@ html, body{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 0px){
 
 	
 	.vks .vk{
@@ -250,15 +250,8 @@ html, body{
 	}
 }
 
-@media screen and (max-width: 414px) {
+@media screen{
 
-	.vks a{
-		margin-left: 1.1em;
-		font-size: 18px;
-		width: 35px;
-		height: 35px;
-		line-height: 35px
-	}
 
 	/* .fontawesome .discord{
 		border-color: #192ff7;
@@ -297,23 +290,9 @@ html, body{
 		box-shadow: 0px 0px 25px #1b2838;
 	}
 }
+@media screen {
+	
 
-@media screen and (max-width: 320px) {
-
-	.vks a{
-		margin-left: 0.9em;
-		font-size: 17px;
-		width: 30px;
-		height: 30px;
-		line-height: 30px
-	}
-	.inst a{
-		margin-left: 0.9em;
-		font-size: 17px;
-		width: 30px;
-		height: 30px;
-		line-height: 30px
-	}
 
 
 	/* .fontawesome .discord{
