@@ -79,6 +79,7 @@ html, body{
 }
 
 .popup{
+	opacity: 0;
 	display: block;
 	margin: 0 auto;
 	width: 50%;
@@ -93,11 +94,13 @@ html, body{
 }
 
 
+
 #modal{
 	display: none
 }
 
 #modal:checked ~ .popup{
+	opacity: 100;
 	top: -200px;
 	box-shadow: 0 0 0 9999px rgba(0,0,0, 0.4);
 }
