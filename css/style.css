@@ -134,6 +134,7 @@ html, body{
 	text-align: center;
 	line-height: 60px; 
 	padding: 10px;
+	
 }
 
 .vk1{
@@ -158,6 +159,8 @@ html, body{
 	text-align: center;
 	line-height: 60px; 
 	padding: 10px;
+	margin: 10px;
+
 }
 
 .steam1{
@@ -194,4 +197,5 @@ html, body{
 	text-align: center;
 	line-height: 60px; 
 	padding: 10px;
+	margin: 10px;
 }
