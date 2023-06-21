@@ -37,6 +37,7 @@ html, body{
 
 .sticker {
 	display: block;
+	margin-top: 20%;
 	margin-left: auto;
 	margin-right: auto;
     width: 128px;
@@ -52,16 +53,16 @@ html, body{
 	margin: 0 auto;
 } */
 
+
 .btn{
-	display: block;
+
 	font-family: Arial;
 	width: 210px;
 	text-align: center;
-	margin-bottom: 90%;
 	color: #b2b8ed;
 	border: 1px solid #b2b8ed;
 	padding: 15px 0;
-	margin: 0px auto;
+	margin: 0 auto;
 	box-shadow: 0px 0px 10px #b2b8ed;
 	cursor: pointer;
 }
