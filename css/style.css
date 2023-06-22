@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
+  .background{
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+  }
 
 .area{
     background: #4e54c8;  
@@ -47,7 +53,11 @@
     animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.chtml, body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #444444;
+  }ircles li:nth-child(3){
     left: 70%;
     width: 20px;
     height: 20px;
@@ -125,18 +135,8 @@
 
 }
 
-html, body{
-	margin: 0px;
-	padding: 0px;
-	background-color: #444444;
-  }
-  .background{
-	position: absolute;
-	display: block;
-	top: 0px;
-	left: 0px;
-	z-index: 0;
-  }
+
+
 .title{
 	text-align: center;
 	margin-top: 20px;
@@ -162,7 +162,7 @@ html, body{
 
 .sticker {
 	display: block;
-	margin-top: 20%;
+	margin-top: 0%;
 	margin-bottom: 10%;
 	margin-left: auto;
 	margin-right: auto;
