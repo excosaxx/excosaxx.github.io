@@ -1,40 +1,60 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.5">
-	<meta http-equiv='cache-control' content='no-cache'> 
-	<meta http-equiv='expires' content='0'> 
-	<meta http-equiv='pragma' content='no-cache'>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>info about me</title>
-
+<html lang="ru">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Информация обо мне</title>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+          integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <main>
+        <div class="sticker">
+            <img src="https://vk.com/sticker/1-4279-128b" alt="Стикер" width="128" height="128">
+        </div>
 
-	<div class="sticker">
-		<img src="https://vk.com/sticker/1-4279-128b" alt=" ">
-		</div>
-		<input type="checkbox" id="modal" >
-		<label class="btn" for="modal">ИНФОРМАЦИЯ</label>
-		<form class="popup" action="">
-			<label class="close" for="modal">&#215;</label>
-			<span>Данный сайт был создан для того, чтобы тебе было легче найти меня в других соц.сетях. Достаточно просто нажать на нужную кнопку внизу</span>
-			<div id="mask"></div>
-		</form>
+        <p class="info-text">
+            Данный сайт создан, чтобы было проще найти меня в других соцсетях. Нажми одну из кнопок ниже, чтобы перейти.
+        </p>
 
-	<div class="table1" >
-		<a class="vk" href="https://vk.com/user______died" target="_blank"><i class="fab fa-vk"></i></a>
-		<a class="insta" href="https://www.instagram.com/berpnia/" target="_blank"><i class="fab fa-instagram"></i></a>
-		<a class="steam1" href="https://steamcommunity.com/id/CsFurr/" target="_blank"><i class="fab fa-steam"></i></a>
+        <nav class="social-nav" aria-label="Социальные сети">
+            <ul class="social-list">
+                <li>
+                    <a class="social insta" href="https://www.instagram.com/berpnia/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="label">Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social telegram" href="https://t.me/fox_sdv" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-telegram" aria-hidden="true"></i>
+                        <span class="label">Telegram</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social steam1" href="https://steamcommunity.com/id/CsFurr/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-steam" aria-hidden="true"></i>
+                        <span class="label">Dementor</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social steam" href="https://steamcommunity.com/id/csFur/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-steam" aria-hidden="true"></i>
+                        <span class="label">CsFurr</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
 
-	</div>
-
-	<div class="table2">
-		<a class="vk1" href="https://vk.com/csfurry" target="_blank"><i class="fab fa-vk"></i></a>
-		<a class="telegram" href="https://t.me/fox_sdv" target="_blank"><i class="fab fa-telegram"></i></a>
-		<a class="steam" href="https://steamcommunity.com/id/csFur/" target="_blank"><i class="fab fa-steam"></i></a>
-	</div>
+    <footer>
+        <small>&copy; 2025</small>
+    </footer>
 </body>
 </html>
