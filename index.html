@@ -8,53 +8,78 @@
     <meta http-equiv="pragma" content="no-cache">
     <title>Информация обо мне</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
           integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
           crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        <div class="sticker">
-            <img src="https://vk.com/sticker/1-4279-128b" alt="Стикер" width="128" height="128">
-        </div>
+    <div class="background-blur blur-one"></div>
+    <div class="background-blur blur-two"></div>
 
-        <p class="info-text">
-            Данный сайт создан, чтобы было проще найти меня в других соцсетях. Нажми одну из кнопок ниже, чтобы перейти.
-        </p>
+    <main class="page-shell">
+        <section class="profile-card" aria-label="Профиль">
+            <div class="top-row">
+                <div class="profile-header">
+                    <div class="sticker-wrap">
+                        <img src="https://vk.com/sticker/1-4279-128b" alt="Стикер" width="128" height="128">
+                    </div>
 
-        <nav class="social-nav" aria-label="Социальные сети">
-            <ul class="social-list">
-                <li>
-                    <a class="social insta" href="https://www.instagram.com/berpnia/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="label">Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="social telegram" href="https://t.me/fox_sdv" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-telegram" aria-hidden="true"></i>
-                        <span class="label">Telegram</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="social steam1" href="https://steamcommunity.com/id/CsFurr/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-steam" aria-hidden="true"></i>
-                        <span class="label">Dementor</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="social steam" href="https://steamcommunity.com/id/csFur/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-steam" aria-hidden="true"></i>
-                        <span class="label">CsFurr</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                    <div class="profile-copy">
+                        <p class="eyebrow" data-i18n="profileLabel">Профиль</p>
+                        <h1>DEMENTOR</h1>
+                    </div>
+                </div>
+
+                <div class="lang-switcher" aria-label="Выбор языка">
+                    <button class="lang-btn active" type="button" data-lang="ru">RU</button>
+                    <button class="lang-btn" type="button" data-lang="en">EN</button>
+                    <button class="lang-btn" type="button" data-lang="it">IT</button>
+                </div>
+            </div>
+
+            <p class="info-text" data-i18n="introText">
+                Этот сайт создан, чтобы было проще найти меня в других соцсетях. Нажмите на любую кнопку ниже, чтобы перейти.
+            </p>
+
+            <nav class="social-nav" aria-label="Социальные сети" data-nav-label="Социальные сети">
+                <ul class="social-list">
+                    <li>
+                        <a class="social insta" href="https://www.instagram.com/berpnia/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="label">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social telegram" href="https://t.me/fox_sdv" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-telegram" aria-hidden="true"></i>
+                            <span class="label">Telegram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social steam1" href="https://steamcommunity.com/id/CsFurr/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-steam" aria-hidden="true"></i>
+                            <span class="label">Dementor</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social steam" href="https://steamcommunity.com/id/csFur/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-steam" aria-hidden="true"></i>
+                            <span class="label">CsFurr</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </main>
 
     <footer>
         <small>&copy; 2025</small>
     </footer>
+
+    <script src="js/js.js" defer></script>
 </body>
 </html>
