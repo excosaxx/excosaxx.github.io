@@ -295,6 +295,16 @@ footer small {
 }
 
 @media (max-width: 640px) {
+    body {
+        padding: 16px 10px 12px;
+        justify-content: flex-start;
+    }
+
+    .page-shell {
+        width: min(100%, 360px);
+        margin-top: 6px;
+    }
+
     .top-row {
         flex-direction: column;
         align-items: center;
@@ -307,11 +317,11 @@ footer small {
 
 @media (max-width: 540px) {
     body {
-        padding: 20px 12px;
+        padding: 12px 8px 10px;
     }
 
     .profile-card {
-        padding: 1.25rem 1rem;
+        padding: 1.1rem 0.85rem 1rem;
         border-radius: 22px;
     }
 
@@ -320,24 +330,28 @@ footer small {
     }
 
     .sticker-wrap {
-        width: 96px;
-        height: 96px;
+        width: 90px;
+        height: 90px;
     }
 
     .sticker-wrap img {
-        width: 70px;
-        height: 70px;
+        width: 64px;
+        height: 64px;
     }
 
     .social-list {
         grid-template-columns: 1fr;
-        gap: 0.9rem;
+        gap: 0.8rem;
         max-width: 220px;
     }
 
     .social {
         max-width: 100%;
-        min-height: 110px;
+        min-height: 104px;
+    }
+
+    footer {
+        padding-top: 0.6rem;
     }
 }
 
