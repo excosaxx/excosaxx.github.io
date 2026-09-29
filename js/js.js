@@ -26,7 +26,6 @@ const langButtons = document.querySelectorAll('.lang-btn');
 const i18nNodes = document.querySelectorAll('[data-i18n]');
 const socialNav = document.querySelector('.social-nav');
 const profileCard = document.querySelector('.profile-card');
-const deviceToggle = document.getElementById('deviceToggle');
 
 function applyLanguage(lang) {
   const locale = translations[lang] || translations.ru;
@@ -61,14 +60,5 @@ langButtons.forEach((button) => {
     applyLanguage(button.dataset.lang);
   });
 });
-
-if (deviceToggle) {
-  deviceToggle.addEventListener('click', () => {
-    const isMobile = document.body.classList.toggle('device-preview-mobile');
-    const nextLabel = isMobile ? 'PHONE' : 'PC';
-    deviceToggle.textContent = nextLabel;
-    deviceToggle.setAttribute('aria-pressed', String(isMobile));
-  });
-}
 
 applyLanguage('ru');
