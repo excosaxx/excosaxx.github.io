@@ -286,24 +286,6 @@ h1 {
     border-color: rgba(173, 197, 255, 0.22);
 }
 
-footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    z-index: 1;
-    text-align: center;
-    color: rgba(255,255,255,0.72);
-    letter-spacing: 0.06em;
-}
-
-footer small {
-    display: inline-block;
-    padding-top: 0.35rem;
-    font-size: 0.8rem;
-    opacity: 0.9;
-}
-
 @media (max-width: 640px) {
     body {
         padding: 12px 10px 12px;
@@ -362,10 +344,6 @@ footer small {
         max-width: 100%;
         min-height: 72px;
         padding: 0.6rem 0.7rem;
-    }
-
-    footer {
-        bottom: 6px;
     }
 }
 
