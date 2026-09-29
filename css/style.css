@@ -19,12 +19,14 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    height: 100%;
 }
 
 body {
     position: relative;
     width: 100%;
     max-width: 100vw;
+    height: 100vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -69,6 +71,7 @@ body {
     z-index: 1;
     width: min(100%, 760px);
     max-width: calc(100vw - 20px);
+    margin: 0;
 }
 
 .profile-card {
@@ -174,12 +177,12 @@ h1 {
 
 .info-text {
     max-width: 560px;
-    margin: 0 auto 1.75rem;
-    padding: 1rem 1.2rem;
+    margin: 0 auto 1.1rem;
+    padding: 0.8rem 1rem;
     border-radius: 16px;
     text-align: center;
-    line-height: 1.6;
-    font-size: 1rem;
+    line-height: 1.5;
+    font-size: 0.96rem;
     color: var(--muted);
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.06);
@@ -284,9 +287,11 @@ h1 {
 }
 
 footer {
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
     z-index: 1;
-    padding-top: 1rem;
     text-align: center;
     color: rgba(255,255,255,0.72);
     letter-spacing: 0.06em;
@@ -301,15 +306,15 @@ footer small {
 
 @media (max-width: 640px) {
     body {
-        padding: 16px 10px 12px;
-        justify-content: flex-start;
+        padding: 12px 10px 12px;
+        justify-content: center;
         overflow-x: hidden;
     }
 
     .page-shell {
         width: min(100%, 360px);
         max-width: calc(100vw - 12px);
-        margin-top: 6px;
+        margin-top: 0;
     }
 
     .top-row {
@@ -324,12 +329,12 @@ footer small {
 
 @media (max-width: 540px) {
     body {
-        padding: 12px 8px 10px;
+        padding: 10px 8px 10px;
         overflow-x: hidden;
     }
 
     .profile-card {
-        padding: 1.1rem 0.85rem 1rem;
+        padding: 0.9rem 0.8rem 0.85rem;
         border-radius: 22px;
     }
 
@@ -349,17 +354,18 @@ footer small {
 
     .social-list {
         grid-template-columns: 1fr;
-        gap: 0.8rem;
+        gap: 0.55rem;
         max-width: 220px;
     }
 
     .social {
         max-width: 100%;
-        min-height: 104px;
+        min-height: 72px;
+        padding: 0.6rem 0.7rem;
     }
 
     footer {
-        padding-top: 0.6rem;
+        bottom: 6px;
     }
 }
 
